@@ -1,0 +1,144 @@
+
+/*აქ logo search და login გრაფებს მივეცი პოზიციები*/
+header{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+}
+
+/*აქ search გრაფას მივეცი დიზაინი*/
+.search{
+    border-radius: 16px;
+    width: 200px;
+    height: 35px;
+    border: none;
+}
+
+/*აქ logo-ს მივეცი დიზაინი*/
+.loggames{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*აქ ტექსტს play your favourite game-ს მივეცი დიზაინი*/
+.favgame{
+    margin-left: 140px;
+    color: darkred;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*აქ ტექსტს Gaming Playlist Of-ს მივეცი დიზაინი*/
+.playlist{
+    margin-left: 140px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+}
+
+/*აქ ტექსტს The Year-ს  მივეცი დიზაინი*/
+.year{
+    margin-left: 140px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+}
+
+/*აქ მივეცი გრძელ ტექსტს დიზაინი*/
+.longtext{
+    margin-left: 150px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+ /*აქ მივეცი login ღილაკს დიზაინი */
+.button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: darkred;
+    border: none;
+}
+ 
+/*აქ login ღილაკში ტექსტს მივეცი დიზაინი*/
+.logintext{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+}
+
+/*აქ გადმოსაწერ ღილაკს მივეცი დიზაინი*/
+.button2{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: darkred;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    border: none;
+    margin-left: 146px;
+}
+
+/*აქ ღილაკებს მივეცი შესაძლებლობა მაუსის შეხებაზე რომ შეიცვალონ დიზაინი*/
+button:hover{
+    background-color: rgb(34, 33, 33);
+    border: none;
+}
+
+/*აქ ფოტოებს მივეცი დიზაინი*/
+.pic{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;  
+}
+
+/*აქ ფოტოებს მივეცი შესაძლებლობა მაუსის შეხებაზე რომ შეიცვალონ დიზაინი*/
+.pic:hover{
+    border:4px solid rgb(34, 33, 33);    
+}
+
+/*აქ ფოტოებს მივეცი პოზიციები*/
+.artcl{
+    display: flex;
+    flex-wrap: nowrap;
+   justify-content: space-evenly;
+}
+
+/*ტექსტ categories მივეცი დიზაინი*/
+.categor{
+    margin-left: 176px;
+    font-size: 30px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*აქ კატეგორიების ჩამონათვალს მივეცი დიზაინი*/
+.cattg{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid rgb(34, 33, 33);
+    background-color: rgb(34, 33, 33);
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+}
+
+/*აქ categories-ს ღილაკებს მივეცი შესაძლებლობა მაუსის შეხებაზე რომ შეიცვალონ დიზაინი*/
+.cattg:hover{
+    background-color: darkred;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
